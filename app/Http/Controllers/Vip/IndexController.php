@@ -53,4 +53,8 @@ class IndexController extends Controller
         ];
         return view('Vip.vip',$data);
     }
+
+    public function gou(){
+        echo 'dogdogdog';
+    }
 }
